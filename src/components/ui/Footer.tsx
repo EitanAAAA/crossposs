@@ -1,6 +1,6 @@
 import React from 'react';
-import { PLATFORM_CONFIGS } from '../../constants/index';
-import { Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants';
+import { Platform } from '../../types';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import { PLATFORM_CONFIGS } from '../../constants/index';
-import { Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants';
+import { Platform } from '../../types';
 import { TextReveal } from '../../registry/magicui/text-reveal';
 
 interface TimeSavingSectionProps {

@@ -2,7 +2,6 @@ import React from 'react';
 import { THEME } from '../../constants/theme';
 import HeroSection from '../sections/HeroSection';
 import TimeSavingSection from '../sections/TimeSavingSection';
-// import VideoEditingSection from './VideoEditingSection'; // Removed due to missing module
 import ComparisonSection from '../sections/ComparisonSection';
 import Footer from './Footer';
 

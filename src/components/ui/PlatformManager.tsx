@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Platform } from '../../types/index';
-import { PLATFORM_CONFIGS } from '../../constants/index';
+import { Platform } from '../../types';
+import { PLATFORM_CONFIGS } from '../../constants';
 import PlatformDisplay from './PlatformDisplay';
 
 interface PlatformManagerProps {
