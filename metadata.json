@@ -1,8 +1,0 @@
-{
-  "name": "CrossPost MVP",
-  "description": "A multi-platform video uploader for creators to publish one video to TikTok, Instagram, YouTube, and Facebook simultaneously.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
