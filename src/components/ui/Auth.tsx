@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { db } from '../services/db';
+import { db } from '../../services/db';
 import { Platform, User } from '../../types/index';
-import AuthIconCloud from './AuthIconCloud';
+import AuthIconCloud from '../animations/AuthIconCloud';
 
 interface AuthProps {
   mode: 'login' | 'signup';

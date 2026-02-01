@@ -8,7 +8,7 @@ import {
   needsOptimization,
   getOptimizationSuggestions,
   PLATFORM_SPECS
-} from '../services/videoOptimizer';
+} from '../../services/videoOptimizer';
 
 interface VideoOptimizerProps {
   videoFile: File | null;

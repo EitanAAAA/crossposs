@@ -1,7 +1,7 @@
 
 import React from 'react';
-import ShineEntrance from './ShineEntrance';
-import GlareHover from './GlareHover';
+import ShineEntrance from '../animations/ShineEntrance';
+import GlareHover from '../animations/GlareHover';
 
 interface HeaderProps {
   currentTab: 'landing' | 'upload' | 'dashboard' | 'settings' | 'auth-login' | 'auth-signup';

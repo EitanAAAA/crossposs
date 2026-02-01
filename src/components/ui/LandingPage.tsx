@@ -1,9 +1,9 @@
 import React from 'react';
-import { THEME } from '../constants/theme';
-import HeroSection from './HeroSection';
-import TimeSavingSection from './TimeSavingSection';
+import { THEME } from '../../constants/theme';
+import HeroSection from '../sections/HeroSection';
+import TimeSavingSection from '../sections/TimeSavingSection';
 // import VideoEditingSection from './VideoEditingSection'; // Removed due to missing module
-import ComparisonSection from './ComparisonSection';
+import ComparisonSection from '../sections/ComparisonSection';
 import Footer from './Footer';
 
 interface LandingPageProps {

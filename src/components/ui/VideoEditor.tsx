@@ -10,8 +10,8 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import VideoPreviewArea from './VideoPreviewArea';
 import VideoTimeline from './VideoTimeline';
-import { Platform, ProjectType } from '../types';
-import { PLATFORM_CONFIGS } from '../constants';
+import { Platform, ProjectType } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 
 interface Track {
   id: string;

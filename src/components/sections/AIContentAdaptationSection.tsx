@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
-import GlareHover from './GlareHover';
+import GlareHover from '../animations/GlareHover';
 import { Platform } from '../../types/index';
 import { PLATFORM_CONFIGS } from '../../constants/index';
 
