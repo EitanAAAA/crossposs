@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { PLATFORM_CONFIGS } from '../../constants/index';
 import { Platform } from '../../types/index';
-import ScrollReveal from './ScrollReveal';
-import GlareHover from './GlareHover';
+import ScrollReveal from '../animations/ScrollReveal';
+import GlareHover from '../animations/GlareHover';
 
 interface SpiderAnimationSectionProps {
   onStart: () => void;

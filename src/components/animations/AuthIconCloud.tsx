@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconCloud } from '../registry/magicui/icon-cloud';
+import { IconCloud } from '../../registry/magicui/icon-cloud';
 
 const platformSlugs = [
   'tiktok',
