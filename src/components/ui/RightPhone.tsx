@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { PLATFORM_CONFIGS } from '../../constants';
-import { Platform } from '../../types';
+import { PLATFORM_CONFIGS } from '../../constants/index';
+import { Platform } from '../../types/index';
 
 interface RightPhoneProps {
   scrollProgress: number;

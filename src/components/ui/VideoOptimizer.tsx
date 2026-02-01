@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Platform } from '../../types';
+import { Platform } from '../../types/index';
 import { 
   VideoOptimizationOptions, 
   getOptimalSettings, 

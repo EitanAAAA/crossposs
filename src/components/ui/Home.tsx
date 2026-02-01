@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { VideoRecord, Platform } from '../../types';
+import { VideoRecord, Platform } from '../../types/index';
 import StatCard from './StatCard';
 import InsightCard from './InsightCard';
 import { Sparkles, TrendingUp, Users, Video, Globe } from 'lucide-react';

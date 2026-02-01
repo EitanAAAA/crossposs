@@ -1,8 +1,8 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
 import GlareHover from './GlareHover';
-import { Platform } from '../../types';
-import { PLATFORM_CONFIGS } from '../../constants';
+import { Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 
 interface AIContentAdaptationSectionProps {
   onStart: () => void;

@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { PLATFORM_CONFIGS } from '../../constants';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 import BlurText from './BlurText';
 import TrueFocus from './TrueFocus';
 import GlareHover from './GlareHover';

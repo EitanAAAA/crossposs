@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Platform } from '../../types';
+import { Platform } from '../../types/index';
 
 interface PlatformPreviewProps {
   platform: Platform;

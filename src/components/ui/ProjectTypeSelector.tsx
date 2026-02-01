@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Clapperboard, Image, Type, GalleryHorizontal, Play, Sparkles, Send, Layers, User, Loader2 } from 'lucide-react';
 import Lottie from 'lottie-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ProjectType, Platform } from '../../types';
-import { PLATFORM_CONFIGS } from '../../constants';
+import { ProjectType, Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 import TargetCursor from './TargetCursor';
 import loadingAnimation from '../loading.json';
 

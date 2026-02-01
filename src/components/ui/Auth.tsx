@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { db } from '../services/db';
-import { Platform, User } from '../../types';
+import { Platform, User } from '../../types/index';
 import AuthIconCloud from './AuthIconCloud';
 
 interface AuthProps {

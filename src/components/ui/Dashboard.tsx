@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import { VideoRecord, PublishStatus, Platform } from '../../types';
-import { PLATFORM_CONFIGS } from '../../constants';
+import { VideoRecord, PublishStatus, Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 import VideoOptimizer from './VideoOptimizer';
 import PlatformDisplay from './PlatformDisplay';
 import StatCard from './StatCard';

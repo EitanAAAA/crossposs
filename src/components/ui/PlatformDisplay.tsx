@@ -1,6 +1,6 @@
 import React from 'react';
-import { Platform } from '../../types';
-import { PLATFORM_CONFIGS } from '../../constants';
+import { Platform } from '../../types/index';
+import { PLATFORM_CONFIGS } from '../../constants/index';
 
 interface PlatformDisplayProps {
   platforms: Platform[];
