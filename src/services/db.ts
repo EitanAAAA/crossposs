@@ -1,4 +1,4 @@
-import { User, VideoRecord } from '../../types';
+import { User, VideoRecord } from '../types';
 
 // @ts-ignore
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';

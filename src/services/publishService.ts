@@ -1,5 +1,5 @@
 
-import { Platform, PublishStatus, VideoRecord, PlatformStatus, PlatformTokens } from '../../types';
+import { Platform, PublishStatus, VideoRecord, PlatformStatus, PlatformTokens } from '../types';
 import { uploadToYouTube } from './youtubeUpload';
 
 interface PublishVideoOptions {

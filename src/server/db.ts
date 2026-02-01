@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { User, VideoRecord, PlatformStatus, Platform } from '../../types';
+import { User, VideoRecord, PlatformStatus, Platform } from '../types';
 
 const prisma = new PrismaClient();
 

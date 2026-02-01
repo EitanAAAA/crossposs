@@ -1,5 +1,5 @@
 import { getYouTubeClient, refreshYouTubeToken } from './youtubeAuth';
-import { PlatformStatus, PublishStatus, Platform } from '../../types';
+import { PlatformStatus, PublishStatus, Platform } from '../types';
 import { google } from 'googleapis';
 import { Readable } from 'stream';
 

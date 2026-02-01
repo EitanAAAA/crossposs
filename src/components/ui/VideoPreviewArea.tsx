@@ -1,6 +1,6 @@
 import React from 'react';
 import { Play, Pause, Upload, Monitor, Smartphone, Sparkles, Heart, MessageCircle, Share2, Music2, User, MoreVertical, Plus } from 'lucide-react';
-import { Iphone } from '../registry/magicui/iphone';
+import { Iphone } from '../../registry/magicui/iphone';
 import { Platform } from '../../types';
 
 interface VideoPreviewAreaProps {

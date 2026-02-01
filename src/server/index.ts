@@ -10,7 +10,7 @@ import express from 'express';
 import cors from 'cors';
 import multer from 'multer';
 import { databaseService } from './db';
-import { User, VideoRecord } from '../../types';
+import { User, VideoRecord } from '../types';
 import { getYouTubeAuthUrl, getYouTubeTokens } from '../services/youtubeAuth';
 import { uploadToYouTube } from '../services/youtubeUpload';
 
