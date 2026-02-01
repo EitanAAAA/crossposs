@@ -32,10 +32,10 @@ export const uploadToYouTube = async (options: YouTubeUploadOptions): Promise<{
     if (Buffer.isBuffer(videoFile)) {
       videoBuffer = videoFile;
       finalMimeType = mimeType || 'video/mp4';
-    } else if (videoFile instanceof Blob || videoFile instanceof File) {
-      const arrayBuffer = await videoFile.arrayBuffer();
+    } else if (videoFile instanceof (globalThis.Blob || Object) || videoFile instanceof (globalThis.File || Object)) {
+      const arrayBuffer = await (videoFile as any).arrayBuffer();
       videoBuffer = Buffer.from(arrayBuffer);
-      finalMimeType = mimeType || (videoFile instanceof File ? videoFile.type : null) || (videoFile instanceof Blob ? videoFile.type : null) || 'video/mp4';
+      finalMimeType = mimeType || ((videoFile as any).type) || 'video/mp4';
     } else {
       throw new Error('Unsupported video file type');
     }

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Platform } from './types';
+import { Platform } from '../types/index';
 
 export const PLATFORM_CONFIGS = {
   [Platform.TikTok]: {

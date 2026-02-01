@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ProjectType, Platform } from '../../types/index';
 import { PLATFORM_CONFIGS } from '../../constants/index';
 import TargetCursor from '../animations/TargetCursor';
-import loadingAnimation from '../loading.json';
+import loadingAnimation from '../../loading.json';
 
 interface ProjectTypeSelectorProps {
   onSelect: (type: ProjectType, name: string) => void;

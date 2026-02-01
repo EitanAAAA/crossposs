@@ -1,11 +1,11 @@
 
 import React, { useRef } from 'react';
 import { PLATFORM_CONFIGS } from '../../constants/index';
-import BlurText from './BlurText';
-import TrueFocus from './TrueFocus';
-import GlareHover from './GlareHover';
-import ShineEntrance from './ShineEntrance';
-import BlurVariableProximity from './BlurVariableProximity';
+import BlurText from '../animations/BlurText';
+import TrueFocus from '../animations/TrueFocus';
+import GlareHover from '../animations/GlareHover';
+import ShineEntrance from '../animations/ShineEntrance';
+import BlurVariableProximity from '../animations/BlurVariableProximity';
 
 interface HeroSectionProps {
   onStart: () => void;

@@ -1,6 +1,6 @@
 import React from 'react';
-import ScrollReveal from './ScrollReveal';
-import GlareHover from './GlareHover';
+import ScrollReveal from '../animations/ScrollReveal';
+import GlareHover from '../animations/GlareHover';
 import { Platform } from '../../types/index';
 import { PLATFORM_CONFIGS } from '../../constants/index';
 
@@ -62,7 +62,9 @@ const PlatformIntegrationsSection: React.FC<PlatformIntegrationsSectionProps> = 
                 [Platform.YouTube]: 'from-red-600 to-red-700',
                 [Platform.Facebook]: 'from-[#1877f2] to-[#0d5fcc]',
                 [Platform.X]: 'from-black to-gray-900',
-                [Platform.LinkedIn]: 'from-[#0077b5] to-[#005885]'
+                [Platform.LinkedIn]: 'from-[#0077b5] to-[#005885]',
+                [Platform.Pinterest]: 'from-[#e60023] to-[#b3001b]',
+                [Platform.Reddit]: 'from-[#ff4500] to-[#cc3700]'
               };
               const color = platformColors[item.platform];
 

@@ -90,7 +90,7 @@ const TargetCursor: React.FC<TargetCursorProps> = ({
       if (strength === 0) return;
       const cursorX = gsap.getProperty(cursorRef.current, 'x') as number;
       const cursorY = gsap.getProperty(cursorRef.current, 'y') as number;
-      const corners = Array.from(cornersRef.current);
+      const corners = Array.from(cornersRef.current) as HTMLDivElement[];
       corners.forEach((corner, i) => {
         const currentX = gsap.getProperty(corner, 'x') as number;
         const currentY = gsap.getProperty(corner, 'y') as number;
@@ -165,7 +165,7 @@ const TargetCursor: React.FC<TargetCursorProps> = ({
       }
 
       activeTarget = target;
-      const corners = Array.from(cornersRef.current);
+      const corners = Array.from(cornersRef.current) as HTMLDivElement[];
       corners.forEach(corner => gsap.killTweensOf(corner));
       gsap.killTweensOf(cursorRef.current, 'rotation');
       spinTl.current?.pause();
@@ -204,7 +204,7 @@ const TargetCursor: React.FC<TargetCursorProps> = ({
         gsap.set(activeStrengthRef.current, { current: 0, overwrite: true });
         activeTarget = null;
         if (cornersRef.current) {
-          const corners = Array.from(cornersRef.current);
+          const corners = Array.from(cornersRef.current) as HTMLDivElement[];
           gsap.killTweensOf(corners);
           const { cornerSize } = constants;
           const positions = [

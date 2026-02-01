@@ -1,6 +1,6 @@
 import React from 'react';
-import ScrollReveal from './ScrollReveal';
-import GlareHover from './GlareHover';
+import ScrollReveal from '../animations/ScrollReveal';
+import GlareHover from '../animations/GlareHover';
 
 interface ComparisonSectionProps {
   onStart: () => void;
